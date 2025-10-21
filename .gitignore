@@ -1,0 +1,78 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+jupyter_*.log
+
+# Data files (large datasets should not be in Git)
+*.csv
+*.xls
+*.xlsx
+*.json  # If containing large datasets
+*.parquet
+*.h5
+*.pkl
+*.pickle
+*.rar
+*.zip
+*.tar
+*.gz
+
+# Machine learning specific
+*.model
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Checkpoints and temporary files
+*.tmp
+*.temp
+*~
+
+# Audio/Video files (these should be on external storage)
+*.mp3
+*.mp4
+*.m4s
+*.wav
+*.avi
+*.mov
+
+# Generated files
+*.out
+*.bin
+*.exe
+*.dll
+*.so
+
+# Test and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.cov/
+coverage.xml
+
+.pytest_cache
+.ipynb_checkpoints

@@ -1,0 +1,16 @@
+[project]
+name = "machine-learn"
+version = "0.1.0"
+description = "A collection of machine learning algorithms implementations including gradient descent, KNN, decision trees, and other ML techniques"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyterlab-lsp>=5.2.0",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "pytest>=8.4.2",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+]
